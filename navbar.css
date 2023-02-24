@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/* body{
+    background-color: aqua;
+} */
+
+.banner{
+    min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	background: url(port/background.png);
+	background-size: cover;
+	background-position: center;
+}
+header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.logo{
+    margin-top: -15px;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.list ul{
+    
+    position: relative;
+    right: 130px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+.list ul li {
+    position: relative;
+    padding-left: 40px;
+    
+}
+.list ul li a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+    color: black;
+    font-weight: 500;
+    padding: 10px 27px;
+    
+}
+.list ul li a::after{
+	content: '';
+	position:absolute;
+	width: 0;
+	height: 2px;
+	background:blue;
+	bottom: -7px;
+	left:  42px;
+	transition: ease .40s;
+}
+.list ul li a:hover::after{
+	width: 70%;
+}
+
+.cv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 154px;
+    height: 45px;
+    background-color:transparent;
+    color: blue;
+    border: 2px blue solid;
+    border-radius: 3px;
+    left: -180px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0.30, 0, 0, 0.30));
+    transition: 0.3s;
+}
+.cv:hover{
+    border: 2px rgb(213, 0, 237) solid;
+    border-radius: 3px;
+   color: rgb(213, 0, 237) ;
+}

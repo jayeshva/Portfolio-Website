@@ -1,0 +1,78 @@
+.content{
+    position: relative;
+    line-height: 45px;
+    top: 125px;
+    margin-left: 160px;
+}
+.title{
+    display: flex;
+    justify-items: baseline;
+    letter-spacing: 6px;
+    
+}
+.total{
+    margin-left: 35px;;
+}
+.sub_content{
+    font-size: 18px;
+    font-weight: -100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+.icon{
+    display: flex;
+    position: relative;
+    top: 145px;
+    left: 170px;
+    width: fit-content;
+
+}
+.git{
+    display:flex;
+    background-color:transparent;
+    justify-content: center;
+    align-items: center;
+    border: solid blue 3px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px 25px 25px 25px;
+    font-size: x-large;
+    color: darkblue;
+    cursor: pointer;
+    
+}
+.link{
+    display:flex;
+    background-color:transparent;
+    border: solid blue 3px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px 25px 25px 25px;
+    font-size: x-large;
+    color: darkblue;
+    cursor: pointer;
+    
+}
+.email{
+    font-size: large;
+    display:flex;
+    background-color:transparent;
+    border: solid blue 3px;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    left: 40px;
+    color: darkblue;
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;
+}
+#web{
+    position: relative;
+   left: 10px;;
+}
